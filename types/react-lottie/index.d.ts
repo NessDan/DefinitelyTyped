@@ -2,6 +2,7 @@
 // Project: https://github.com/chenqingspring/react-lottie#readme
 // Definitions by: Kana00 <https://github.com/Kana00>
 //                 Ricki-BumbleDev <https://github.com/Ricki-BumbleDev>
+//                 Daniel Kaspo <https://github.com/NessDan>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
@@ -95,6 +96,7 @@ export interface LottieProps {
     direction?: number;
     ariaRole?: string | 'button';
     ariaLabel?: string | 'animation';
+    tabIndex?: string | number;
     isClickToPauseDisabled?: boolean;
     title?: string;
     style?: React.CSSProperties;
